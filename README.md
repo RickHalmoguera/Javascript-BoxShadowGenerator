@@ -20,7 +20,7 @@
     <p>Para la documentación de como utilizar box-shadow Property.</p>
     <li><a href="https://www.w3schools.com/tags/att_input_type_range.asp">HTML <input type="range"></a></p></li>
     <p>Para la documentación de como utilizar los Inputs de tipo range.</p>
-    <li><a href="https://javascript30.com/">JavaScript 30</a></li>
+    <li><p><a href="https://javascript30.com/">JavaScript 30</a></p></li>
     <p>Página Web donde podrás conseguir 30 proyectos para practicar tus conocimientos de Js. Muy recomendado!</p>
   </ul>
   <h1>Código</h1>
