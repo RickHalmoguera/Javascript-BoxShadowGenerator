@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap" rel="stylesheet">
+    <title>BOX SHADOW GENERATOR</title>
+</head>
+<body>
+
+    <div class="app-container">
+        <div class="title-container">
+            <h1>Drop Shadow Generator</h1>
+        </div>
+        <div class="control-container box">
+            <label for="shift-right">Shift Right</label>
+            <input type="range" name="shiftRight" min="-50" max="50" data-sizing="px">
+
+            <label for="shift-down">Shift Down</label>
+            <input type="range" name="shiftDown" min="-50" max="50" data-sizing="px">
+
+            <label for="spread">Spread</label>
+            <input type="range" name="spread" min="-50" max="50" data-sizing="px">
+
+            <label for="blur">Blur</label>
+            <input type="range" name="blur" min="0" max="50"  data-sizing="px">
+
+            <label for="opacity">Opacity</label>
+            <input type="range" name="opacity" min="0" max="1"  step="0.1">
+
+            <label for="color">Color</label>
+            <input type="color" name="color" value="#000000">
+        </div>
+        <div class="preview-container box">
+            <div class="preview-box" id="previewBox">Element</div>
+        </div>
+        <div class="code-container box" > 
+           <h2>Copy this code to your element CSS:</h2> 
+           <div id="codePreview" class="code-preview"></div>
+        </div>
+      </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
